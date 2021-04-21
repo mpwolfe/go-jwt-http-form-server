@@ -9,3 +9,5 @@ with the backend server. JWT tokens are sent via http headers. The backend serve
 using the Postgres database for user validation and data that the client requests.
 Software used: go program language and Postgress database. The backend server is using
 "github.com/dgrijalva/jwt-go" for JWT tokens.
+Note: you need to make changes to http endpoint in all 3 programs to point to your own endpoints.
+      I am currently using adress 100.xxx.xxx.xxx.xxx .
